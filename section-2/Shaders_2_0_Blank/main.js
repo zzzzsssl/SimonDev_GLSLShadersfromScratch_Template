@@ -45,7 +45,7 @@ class SimonDevGLSLCourse {
       new THREE.Color(0x00FFFF),
     ];
     //将上面四个不同颜色的数组转换成一个浮点型的平面数组
-    const colourFloats = colours.map(c => c.toArray()). float();
+    const colourFloats = colours.map(c => c.toArray()). flat();
 
     const geometry = new THREE.PlaneGeometry(1, 1);
    
